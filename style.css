@@ -58,3 +58,24 @@
     justify-content: center;
     align-items: center;
 }
+/* ------------------------------------- */
+
+#ooo{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    box-shadow:black 0 4px 8px;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 50%;
+}
+
+#ppp{
+    width: 200px;
+    height: 200px;
+    background-size: gold;
+    box-shadow: 0 4px 8px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 50%;
+}
