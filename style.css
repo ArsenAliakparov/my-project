@@ -1,0 +1,60 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px;
+    border: 20px inset brown;
+    background-color: blue;
+}
+.content{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px;
+    border: 20px inset grey;
+    background-color: red;
+}
+/* ------------------------------------- */
+
+.for{
+    font-size: 70px;
+    font-weight: 900;
+    margin-left: 835px;
+    color: goldenrod;
+}
+
+.all{
+    width: 800px;
+    height: 702px;
+    border: 5px outset brown;
+    margin: 0 auto;
+    margin-top: 90px;
+    box-shadow: 0 8px 20px blue;
+}
+.clothes{
+    width: 800px;
+    height: 234px;
+    background-color: yellow;
+    font-size: 74px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.second{
+    width: 800px;
+    height: 234px;
+    background-color: green;
+    font-size: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third{
+    width: 800px;
+    height: 234px;
+    background-color: pink;
+    font-size: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
