@@ -13,3 +13,7 @@ function zzz(){
   basketImg.textContent = forBtn.length
 }
 forBtn.onclick=({id}) = zzz
+
+let bbb = document.querySelector(".bbb")
+
+bbb.innerHTML = "BBB"
