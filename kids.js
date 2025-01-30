@@ -4,3 +4,12 @@ function ttt(){
     prompt()
 }
 login.onclick = ttt
+
+let basketImg = document.getElementById("basket-img")
+let forBtn = document.getElementById("for-btn")
+// cart = []
+function zzz(){
+  // cart.push({id})
+  basketImg.textContent = forBtn.length
+}
+forBtn.onclick=({id}) = zzz

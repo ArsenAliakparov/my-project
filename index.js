@@ -7,13 +7,25 @@ content.innerHTML = "Hello Arsen";
 
 let ooo = document.getElementById("ooo")
 let ppp = document.getElementById("ppp")
+let xxx = document.getElementById("xxx")
 
 
 function rrr(){
         // ooo.innerHTML = timer
-        ooo.style.beckgroundColor = "red"
-        ppp.style.beckgroundColor = "green"
+        ppp.style.backgroundColor = "red"
+    
+}
+function rrqr(){
+        // ooo.innerHTML = timer
+        ooo.style.backgroundColor = "red"
     
 }
 ooo.onclick = rrr
-ppp.onclick = rrr
+ppp.onclick = rrqr
+
+function rrrr(){
+    // ooo.innerHTML = timer
+    ppp.style.backgroundColor = "red"
+
+}
+xxx.onclick = rrrr

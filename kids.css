@@ -5,7 +5,7 @@
  }
 .container{ 
     width: 1200px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin: 0 auto;
 }
 .all{
@@ -23,6 +23,17 @@
     width: 45px;
     height: 45px;
  }
+
+#basket-img{
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  color: #fff;
+  position: absolute;
+  top: 18px;
+  right: 106px;
+  text-align: center;
+}
 .basket button{ 
     background: rgb(210, 119, 34);
     width: 100px;
@@ -40,6 +51,7 @@
      display: flex;
      align-items: center;
      gap: 17px;
+     position: relative;
  }
 
  /* -------------------------------- */
@@ -55,6 +67,7 @@
     height: 450px;
     margin-top: 70px;
     background-color: rgba(0, 225, 255, 0.644);
+    border-radius: 25px;
  }
  .rrr{
     position: relative;
@@ -66,4 +79,64 @@
     bottom: 100px;
     font-size: 100px;
     color: gold;
+ }
+
+ .news{
+     margin-top: 100px;
+     color: gold;
+     font-size: 60px;
+ }
+ .new-img{
+   display: flex;
+   margin-top: 50px;
+   gap: 30px;
+ }
+ .new{
+   position: relative;
+ }
+ .new img{
+   width: 370px;
+   height: 370px;
+   border-radius: 35px;
+ }
+ .btn{
+   position: absolute;
+   right:13px;
+   top: 22px;
+   width: 125px;
+   height: 42px;
+   border-radius: 15px;
+   background-color: gold;
+   border: none;
+   color: #fff;
+   font-weight: 700;
+   font-size: 20px;
+ }
+ .new:hover .for{
+  visibility: visible;
+ }
+ /* .new:hover .baby-img{
+ 
+ } */
+ .for{
+   background-color: gold;
+   width: 50%;
+   height: 370px;
+   position: absolute;
+   top: 0;
+   border-radius: 35px 0 0 35px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   visibility: hidden;
+ }
+ .for p{
+   font-size: 22px;
+ }
+ #for-btn{
+   background-color: aqua;
+   width: 120px;
+   height: 33px;
+   border: none;
  }
